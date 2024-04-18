@@ -8,7 +8,7 @@
 - Newline handling and custom delimiters are supported, allowing users to define delimiters via a separate line at the input's start.
 - Exception handling for negative numbers is implemented, triggering an exception with all negative numbers listed, separated by commas, for clear user feedback.
 ## To setup project
-- Clone repo using cmd : git clone <repo-name>
+- Clone repo using cmd : git clone https://github.com/vishwasdev01/string_calculator.git
 - Run `bundle install` to install dependencies
 ## Ruby version used
 -  Ruby -> 2.6.8
