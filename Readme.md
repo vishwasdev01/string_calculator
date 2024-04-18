@@ -15,3 +15,4 @@
 ## To run rspec 
 - rspec spec
 
+![Screenshot from 2024-04-18 18-28-52](https://github.com/vishwasdev01/string_calculator/assets/116168773/14f90cca-35e0-40b2-8441-87da9c2f71a9)
