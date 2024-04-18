@@ -29,4 +29,16 @@ RSpec.describe StringCalculator, "#add" do
   it "throws an exception for negative numbers" do
     expect { described_class.add("-1,2,-3") }.to raise_error("Negatives not allowed")
   end
+
+  it "uses the custom delimiter of any length and returns the sum" do
+    expect(described_class.add("//[***]\n1***2***3")).to eql(6)
+  end
+
+  it "uses the custom delimiters and returns the sum" do
+    expect(described_class.add("//[*][%]\n1*2%3")).to eql(6)
+  end
+
+  it "uses the custom delimiters of any length and returns the sum" do
+    expect(described_class.add("//[**][%%%]\n1**2%%%3")).to eql(6)
+  end
 end
